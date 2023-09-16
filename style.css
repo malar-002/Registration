@@ -1,0 +1,40 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 9px;
+}
+fieldset,label,input,select,button{
+    
+    padding: 10px;
+    margin: 13px;
+    border-radius: 4px;
+}
+.space{
+    text-align: center;
+}
+button{
+    background-color: rgb(72, 163, 248);
+    width: 100px;
+    padding: 12px;
+    color: #fff;
+}
